@@ -23,7 +23,7 @@ class Command extends PluginCommand{
 	
 	public function execute(CommandSender $sender, $label, array $args){
 	
-	if(!$sender->isOp()){
+	if(!$sender->hasPermission("staff.tools")){
 	$sender->sendMessage(T::RED."No permission");
 	return;
 	}
