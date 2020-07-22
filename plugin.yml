@@ -1,0 +1,5 @@
+name: Staff_BEcraft
+main: Staff\Loader
+version: 1
+api: [2.0.0, 3.0.0-ALPHA5, 2.1.0]
+author: BEcraft GamePlay
